@@ -15,7 +15,7 @@
 # Result
 
 Iphone 13 promax with high brightness
-[![Watch the video]("resouce/high_brightness_iphone.mov") ](https://user-images.githubusercontent.com/61654528/229203887-d3c1adb0-d2a4-46ef-8e5e-fdd91dec0aa3.mp4)
+https://user-images.githubusercontent.com/61654528/229203887-d3c1adb0-d2a4-46ef-8e5e-fdd91dec0aa3.mp4
 
 Iphone 13 promax with high brightness
 https://user-images.githubusercontent.com/61654528/229203919-150936cb-e812-4892-8588-af417ddcf26f.mp4

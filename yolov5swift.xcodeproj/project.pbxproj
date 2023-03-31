@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		468FC6798095CC8BB49B949F /* Pods_yolov5swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CFDB5C72FBD838520181FD /* Pods_yolov5swift.framework */; };
 		7D9F722A29AA59BB0081F682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F722929AA59BB0081F682 /* AppDelegate.swift */; };
 		7D9F722C29AA59BB0081F682 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F722B29AA59BB0081F682 /* SceneDelegate.swift */; };
 		7D9F722E29AA59BB0081F682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F722D29AA59BB0081F682 /* ViewController.swift */; };
-		7D9F723129AA59BB0081F682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D9F722F29AA59BB0081F682 /* Main.storyboard */; };
 		7D9F723329AA59BE0081F682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D9F723229AA59BE0081F682 /* Assets.xcassets */; };
 		7D9F723629AA59BE0081F682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D9F723429AA59BE0081F682 /* LaunchScreen.storyboard */; };
+		7D9F724029AA5AFA0081F682 /* label.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7D9F723E29AA5AFA0081F682 /* label.txt */; };
+		7D9F724429AA5BFE0081F682 /* ModelDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F724329AA5BFE0081F682 /* ModelDataHandler.swift */; };
+		7DDB09B829AA8B480055478A /* Inference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDB09B729AA8B480055478A /* Inference.swift */; };
+		7DDB09BD29AA8ED90055478A /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDB09BC29AA8ED90055478A /* PreviewView.swift */; };
+		7DDB09BF29AA8F6E0055478A /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDB09BE29AA8F6E0055478A /* CameraManager.swift */; };
+		7DDB09C229AA912A0055478A /* CVBufferPixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDB09C129AA912A0055478A /* CVBufferPixel.swift */; };
+		7DDB09C429AAA9ED0055478A /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDB09C329AAA9ED0055478A /* OverlayView.swift */; };
+		7DDB09C629AAAA160055478A /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDB09C529AAAA160055478A /* Overlay.swift */; };
+		7DDB09C829AAAED20055478A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDB09C729AAAED20055478A /* String.swift */; };
+		7DDB09CA29AAAF000055478A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDB09C929AAAF000055478A /* Color.swift */; };
+		7DDB09D029ACF2320055478A /* yolov5.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 7DDB09CF29ACF2320055478A /* yolov5.tflite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24CFDB5C72FBD838520181FD /* Pods_yolov5swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yolov5swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9F722629AA59BB0081F682 /* yolov5swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yolov5swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9F722929AA59BB0081F682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D9F722B29AA59BB0081F682 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7D9F722D29AA59BB0081F682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7D9F723029AA59BB0081F682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D9F723229AA59BE0081F682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D9F723529AA59BE0081F682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D9F723729AA59BE0081F682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D9F723E29AA5AFA0081F682 /* label.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = label.txt; sourceTree = "<group>"; };
+		7D9F724329AA5BFE0081F682 /* ModelDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDataHandler.swift; sourceTree = "<group>"; };
+		7DDB09B729AA8B480055478A /* Inference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inference.swift; sourceTree = "<group>"; };
+		7DDB09BC29AA8ED90055478A /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		7DDB09BE29AA8F6E0055478A /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		7DDB09C129AA912A0055478A /* CVBufferPixel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVBufferPixel.swift; sourceTree = "<group>"; };
+		7DDB09C329AAA9ED0055478A /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		7DDB09C529AAAA160055478A /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
+		7DDB09C729AAAED20055478A /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		7DDB09C929AAAF000055478A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		7DDB09CF29ACF2320055478A /* yolov5.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = yolov5.tflite; sourceTree = "<group>"; };
+		8E4B9F5F4EB428EBAAE265F0 /* Pods-yolov5swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yolov5swift.release.xcconfig"; path = "Target Support Files/Pods-yolov5swift/Pods-yolov5swift.release.xcconfig"; sourceTree = "<group>"; };
+		FC401333B8BE630657BCE0F6 /* Pods-yolov5swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yolov5swift.debug.xcconfig"; path = "Target Support Files/Pods-yolov5swift/Pods-yolov5swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				468FC6798095CC8BB49B949F /* Pods_yolov5swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C9C6A8A45A77E052FB7E494 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC401333B8BE630657BCE0F6 /* Pods-yolov5swift.debug.xcconfig */,
+				8E4B9F5F4EB428EBAAE265F0 /* Pods-yolov5swift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7D9F721D29AA59BB0081F682 = {
 			isa = PBXGroup;
 			children = (
 				7D9F722829AA59BB0081F682 /* yolov5swift */,
 				7D9F722729AA59BB0081F682 /* Products */,
+				2C9C6A8A45A77E052FB7E494 /* Pods */,
+				F56FD24EC81F4F0173FD030F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +92,89 @@
 		7D9F722829AA59BB0081F682 /* yolov5swift */ = {
 			isa = PBXGroup;
 			children = (
-				7D9F722929AA59BB0081F682 /* AppDelegate.swift */,
-				7D9F722B29AA59BB0081F682 /* SceneDelegate.swift */,
+				7D9F724229AA5B4D0081F682 /* AppDelegate */,
+				7DDB09BB29AA8EBA0055478A /* View */,
+				7DDB09B929AA8E930055478A /* Manager */,
+				7DDB09B629AA8B370055478A /* Model */,
+				7D9F723D29AA5AD90081F682 /* Utilities */,
 				7D9F722D29AA59BB0081F682 /* ViewController.swift */,
-				7D9F722F29AA59BB0081F682 /* Main.storyboard */,
+				7D9F724329AA5BFE0081F682 /* ModelDataHandler.swift */,
+				7DDB09C029AA90FC0055478A /* Extensions */,
 				7D9F723229AA59BE0081F682 /* Assets.xcassets */,
 				7D9F723429AA59BE0081F682 /* LaunchScreen.storyboard */,
 				7D9F723729AA59BE0081F682 /* Info.plist */,
 			);
 			path = yolov5swift;
+			sourceTree = "<group>";
+		};
+		7D9F723D29AA5AD90081F682 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7DDB09CF29ACF2320055478A /* yolov5.tflite */,
+				7D9F723E29AA5AFA0081F682 /* label.txt */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7D9F724229AA5B4D0081F682 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7D9F722929AA59BB0081F682 /* AppDelegate.swift */,
+				7D9F722B29AA59BB0081F682 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7DDB09B629AA8B370055478A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DDB09B729AA8B480055478A /* Inference.swift */,
+				7DDB09C529AAAA160055478A /* Overlay.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7DDB09B929AA8E930055478A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7DDB09BA29AA8EA00055478A /* Camera */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		7DDB09BA29AA8EA00055478A /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				7DDB09BE29AA8F6E0055478A /* CameraManager.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		7DDB09BB29AA8EBA0055478A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7DDB09BC29AA8ED90055478A /* PreviewView.swift */,
+				7DDB09C329AAA9ED0055478A /* OverlayView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7DDB09C029AA90FC0055478A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7DDB09C129AA912A0055478A /* CVBufferPixel.swift */,
+				7DDB09C729AAAED20055478A /* String.swift */,
+				7DDB09C929AAAF000055478A /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F56FD24EC81F4F0173FD030F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24CFDB5C72FBD838520181FD /* Pods_yolov5swift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +184,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D9F723A29AA59BE0081F682 /* Build configuration list for PBXNativeTarget "yolov5swift" */;
 			buildPhases = (
+				3A341632D09D9F0ABCA60905 /* [CP] Check Pods Manifest.lock */,
 				7D9F722229AA59BB0081F682 /* Sources */,
 				7D9F722329AA59BB0081F682 /* Frameworks */,
 				7D9F722429AA59BB0081F682 /* Resources */,
@@ -125,21 +236,56 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D9F724029AA5AFA0081F682 /* label.txt in Resources */,
 				7D9F723629AA59BE0081F682 /* LaunchScreen.storyboard in Resources */,
+				7DDB09D029ACF2320055478A /* yolov5.tflite in Resources */,
 				7D9F723329AA59BE0081F682 /* Assets.xcassets in Resources */,
-				7D9F723129AA59BB0081F682 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A341632D09D9F0ABCA60905 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yolov5swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7D9F722229AA59BB0081F682 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DDB09C429AAA9ED0055478A /* OverlayView.swift in Sources */,
+				7DDB09C829AAAED20055478A /* String.swift in Sources */,
+				7DDB09B829AA8B480055478A /* Inference.swift in Sources */,
+				7DDB09C629AAAA160055478A /* Overlay.swift in Sources */,
+				7DDB09BF29AA8F6E0055478A /* CameraManager.swift in Sources */,
+				7DDB09CA29AAAF000055478A /* Color.swift in Sources */,
 				7D9F722E29AA59BB0081F682 /* ViewController.swift in Sources */,
+				7DDB09C229AA912A0055478A /* CVBufferPixel.swift in Sources */,
 				7D9F722A29AA59BB0081F682 /* AppDelegate.swift in Sources */,
+				7D9F724429AA5BFE0081F682 /* ModelDataHandler.swift in Sources */,
+				7DDB09BD29AA8ED90055478A /* PreviewView.swift in Sources */,
 				7D9F722C29AA59BB0081F682 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +293,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7D9F722F29AA59BB0081F682 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7D9F723029AA59BB0081F682 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7D9F723429AA59BE0081F682 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +420,7 @@
 		};
 		7D9F723B29AA59BE0081F682 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC401333B8BE630657BCE0F6 /* Pods-yolov5swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +431,6 @@
 				INFOPLIST_FILE = yolov5swift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +448,7 @@
 		};
 		7D9F723C29AA59BE0081F682 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4B9F5F4EB428EBAAE265F0 /* Pods-yolov5swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +459,6 @@
 				INFOPLIST_FILE = yolov5swift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

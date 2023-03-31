@@ -1,0 +1,6 @@
+framework module Pods_yolov5swift {
+  umbrella header "Pods-yolov5swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

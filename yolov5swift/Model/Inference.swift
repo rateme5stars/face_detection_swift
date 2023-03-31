@@ -6,3 +6,11 @@
 //
 
 import Foundation
+import UIKit
+
+struct Inference {
+    let confidence: Float
+    let className: String
+    let rect: CGRect
+    let displayColor: UIColor
+}

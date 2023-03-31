@@ -13,7 +13,6 @@
 - Yolov5 small
 
 # Result
-<video width="320" height="240" controls>
-  <source src="resouce/high_brightness_iphone.mov" type="video/mov">
-  Your browser does not support the video tag.
-</video>
+
+![Watch the video]("resouce/high_brightness_iphone.mov") 
+ 
